@@ -1,1 +1,5 @@
-# gis
+# The impact of nearby crime on school attendance in NYC
+
+This project comes from an exploratory research project assigned by my GIS & Spatial Analysis Fall 2021 course taught in the Quantitative Methods for the Social Sciences program, and requires using advanced mapping techniques to conduct a multivariate spatial data analysis with spatial models on variables of my choosing. 
+
+I chose to investigate whether crime surrounding schools can affect high school attendance rates. First, I design a choropleth map showcasing the density patterns between crime level and school attendance, aggregated by zip code. I then run a series of multivariate regression models - OLS, Spatial Lag, Spatial Error - followed by diagnostic tests (multicollinearity, heteroskedasticity, normality of errors, etc.). Finally, I determine whether there is spatial dependence, and if there are any significant LISA clusters. From my analysis, I conclude that there is a negative correlation between nearby crime and student attendance.
